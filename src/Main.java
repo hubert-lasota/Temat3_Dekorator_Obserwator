@@ -159,7 +159,7 @@ public class Main {
         minMaxForm(sc, true);
         minMaxForm(sc, false);
 
-        System.out.print("Enter search string(press 'q' to skip filter): ");
+        System.out.print("Enter search string in names(press 'q' to skip filter): ");
         String containsString = sc.nextLine();
         if(!containsString.equals("q")) {
             names = new ContainsStringNamesFilter(names, containsString);

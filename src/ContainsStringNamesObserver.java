@@ -4,7 +4,7 @@ public class ContainsStringNamesObserver implements Observer {
 
     @Override
     public void update(List<String> names) {
-        System.out.printf("After search filter. Names size is %d\n", names.size());
+        System.out.printf("Names has been filtered by search string: %s\n", names);
     }
 
 }
